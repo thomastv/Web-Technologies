@@ -16,7 +16,7 @@ include('../config/DbFunction.php');
 	//$res1->session;
 	if(isset($_POST['submit'])){
 	
-     
+     // Check order in the UI
      $obj->register($_POST['course-short'],$_POST['c-full'],$_POST['fname'],$_POST['mname'],$_POST['lname'],
      	            $_POST['gender'],$_POST['gname'],$_POST['ocp'],$_POST['income'],$_POST['category'],$_POST['ph'],$_POST['nation']
 
