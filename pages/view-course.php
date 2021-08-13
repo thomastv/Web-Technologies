@@ -46,7 +46,7 @@ if (! (isset ( $_SESSION ['login'] ))) {
 
     <div id="wrapper">
 
-        <!-- Navigation -->
+        <!-- Navigation section -->
       
      <?php include('leftbar.php')?>;
 
